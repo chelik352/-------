@@ -1,0 +1,40 @@
+.examples {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.button {
+    width: 100px;
+    height: 33px;
+    border-radius: 33px;
+}
+.span {
+    color: black;
+}
+.transition-one {
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+}
+.transition-one:hover {
+    width: 300px;
+}
+.transition-two {
+    width: 100px;
+    height: 100px;
+    transition: width 2s ,height 4s;
+}
+.transition-two:hover {
+    width: 300px;
+    height: 400px;
+}
+.transition-three {
+    width: 100px;
+    height: 100px;
+    transition: width 4s ,height 4s ,transform 4s;
+}
+.transition-three:hover {
+    width: 400px;
+    height: 400px;
+    transform: rotate(360deg);
+}
